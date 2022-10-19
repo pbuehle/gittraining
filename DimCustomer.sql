@@ -7,7 +7,7 @@ create table [dbo].[DimCustomer](
 	[MiddleName] [nvarchar](50) null,
 	[LastName] [nvarchar](50) null,
 	[NameStyle] [bit] null,
-	[BirthDate] [date] null,
+	[BirthDate] [datetime] null,
 	[MaritalStatus] [nchar](1) null,
 	[Suffix] [nvarchar](10) null,
 	[Gender] [nvarchar](1) null,

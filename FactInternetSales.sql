@@ -16,7 +16,6 @@ CREATE TABLE [dbo].[FactInternetSales](
 	[UnitPriceDiscountPct] [float] NOT NULL,
 	[DiscountAmount] [float] NOT NULL,
 	[ProductStandardCost] [money] NOT NULL,
-	[TotalProductCost] [money] NOT NULL,
 	[SalesAmount] [money] NOT NULL,
 	[TaxAmt] [money] NOT NULL,
 	[Freight] [money] NOT NULL,

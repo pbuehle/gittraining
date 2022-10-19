@@ -6,7 +6,6 @@ create table [dbo].[DimEmployee](
 	[SalesTerritoryKey] [int] null,
 	[FirstName] [nvarchar](50) not null,
 	[LastName] [nvarchar](50) not null,
-	[MiddleName] [nvarchar](50) null,
 	[NameStyle] [bit] not null,
 	[Title] [nvarchar](50) null,
 	[HireDate] [date] null,
@@ -30,4 +29,6 @@ create table [dbo].[DimEmployee](
 	[EndDate] [date] null,
 	[Status] [nvarchar](50) null,
 	[EmployeePhoto] [varbinary](max) null
+	
+
 )

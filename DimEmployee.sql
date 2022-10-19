@@ -9,7 +9,6 @@ create table [dbo].[DimEmployee](
 	[NameStyle] [bit] not null,
 	[Title] [nvarchar](50) null,
 	[HireDate] [date] null,
-	[BirthDate] [date] null,
 	[LoginID] [nvarchar](256) null,
 	[EmailAddress] [nvarchar](50) null,
 	[Phone] [nvarchar](25) null,
